@@ -61,7 +61,10 @@
  * 
  * 
  * 
- * Runtime data areas
+ * Runtime data areas (Memory area)
+ * Java divided the alocated memory from the os as three types
+ * stack, heap, metaspace/permenant generation(permGen)
+ * 
  * 
  * 
  * 
@@ -69,7 +72,10 @@
  * 
  * 
  * Execution Engine
- * 
- * 
+ * interpreter
+ * Just in time compiler 
+ * garbage collection
+ * native method interface(JNI)
+ * Native method Library
  * 
  */
