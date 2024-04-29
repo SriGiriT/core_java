@@ -19,8 +19,8 @@ class StorageClass<T>{
 }
 public class GenericsInJava {
     public static void main(String[] args) {
-        StorageClass<Integer> storageObject = new StorageClass();
-        StorageClass<String> storageObject1 = new StorageClass();
+        StorageClass<Integer> storageObject = new StorageClass<>();
+        StorageClass<String> storageObject1 = new StorageClass<>();
         storageObject.setValue(100);
         storageObject1.setValue("value");
         System.out.println(storageObject.getValue());

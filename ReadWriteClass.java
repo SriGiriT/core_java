@@ -1,5 +1,4 @@
 import java.io.*;
-import java.util.Scanner;
 /*
  * 
  * I/O stream 
@@ -144,6 +143,7 @@ class ObjectInputOutputStreamClass{
     }
 }
 class DataInputOuputStreamClass{
+    @SuppressWarnings("deprecation")
     public static void read(String fileName){
         try(DataInputStream dataInputStream = new DataInputStream(new FileInputStream(fileName))){
             int val1 = dataInputStream.readInt();

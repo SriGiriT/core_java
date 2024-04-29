@@ -62,7 +62,7 @@ public class OuterClass {
         innerClass1.method();
         // how we create object for nested inner class
         OuterClass.InnerClass1.InnerInnerClass1 innerInnerClass1 = new OuterClass().new InnerClass1().new InnerInnerClass1();
-
+        innerInnerClass1.hashCode();
 
         // InnerClass4 innerClass4 = new OuterClass().new InnerClass4();
         // innerClass4.innerClass4();
@@ -70,9 +70,9 @@ public class OuterClass {
 
         //Local Inner class
         // we only have final and abstract local inner class alone
-        class localInnerClass{
+        // class localInnerClass{
 
-        }
+        // }
         // Calling inner class from another class
         AnotherClass.anotherClassMethod();
 

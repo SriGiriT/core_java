@@ -11,9 +11,7 @@ import java.time.ZoneId;
 import java.time.ZoneOffset;
 import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
-import java.time.format.FormatStyle;
 import java.time.temporal.ChronoUnit;
-import java.util.Locale;
 import java.util.Set;
 
 public class DataAndCalendarAPI {
@@ -131,6 +129,6 @@ public class DataAndCalendarAPI {
         System.out.println(localDateString);
         System.out.println(localDateTime6.format(DateTimeFormatter.ofPattern("yyyy/MM/dd")));
         // System.out.println(localDateTime6.format(DateTimeFormatter.ofLocalizedDate(FormatStyle.MEDIUM).withLocale(Locale.US)));
-        
+
     }
 }

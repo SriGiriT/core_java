@@ -76,5 +76,6 @@ public class AbstractClass {
         ClassWithoutAbstractMethods clas = new ClassWithoutAbstractMethods() {
 
         };
+        System.out.println(clas.getClass());
     }
 }

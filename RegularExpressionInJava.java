@@ -55,12 +55,12 @@ public class RegularExpressionInJava {
     }
     public static boolean threeWayMatch(){
         // 1st way
-        Pattern p = Pattern.compile(".s");
-        Matcher m = p.matcher("as");
-        boolean isMatched = m.matches();
-
+        // Pattern p = Pattern.compile(".s");
+        // Matcher m = p.matcher("as");
+        // boolean isMatched = m.matches();
+        
         // 2nd way
-        isMatched = Pattern.compile(".s").matcher("as").matches();
+        // boolean isMatched = Pattern.compile(".s").matcher("as").matches();
 
         // 3rd way
         return Pattern.matches(".s", "as");
